@@ -1,4 +1,4 @@
-command! -nargs=* VcLog echo '<args>'
+command! -nargs=* VcLog silent echo '<args>'
 
 let s:vc_home = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 VcLog vc_home:'s:vc_home'
