@@ -38,7 +38,7 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'w0rp/ale'
 Plug 'junegunn/vim-easy-align'
 
-Plug 'KibaAmor/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe'
 Plug 'Shougo/echodoc.vim'
 Plug 'KibaAmor/YCM-Generator', { 'branch': 'stable'}
 Plug 'skywind3000/asyncrun.vim'
