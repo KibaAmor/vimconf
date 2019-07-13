@@ -66,9 +66,9 @@ nmap <leader>8 :tabn 8<cr>
 nmap <leader>9 :tabn 9<cr>
 nmap <leader>0 :tabn 10<cr>
 
-nmap <F6> :NERDTreeToggle<CR>
-nmap <F7> :cn<cr>
-nmap <F8> :cp<cr>
+nnoremap <F6> :cclose<cr>
+nmap <F7> :cnext<cr>
+nmap <F8> :cprevious<cr>
 
 map <silent> <F9> :if &guioptions =~# 'm' <Bar>
     \set guioptions-=m <Bar>

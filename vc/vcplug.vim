@@ -18,36 +18,51 @@ if (has("nvim"))
 else
     call plug#begin('~/.vim/plugged')
 endif
-Plug 'joshdick/onedark.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'luochen1990/rainbow'
-Plug 'Yggdroot/indentLine'
-Plug 'sheerun/vim-polyglot'
-Plug 'octol/vim-cpp-enhanced-highlight'
-
-Plug 'dkprice/vim-easygrep'
-Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
-
-Plug 'jlanzarotta/bufexplorer'
-Plug 'scrooloose/nerdtree',
 Plug 'mbbill/fencview'
+Plug 'mbbill/undotree'
 Plug 'mhinz/vim-signify'
 Plug 'mhinz/vim-startify'
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'tpope/vim-fugitive'
+Plug 'nvie/vim-togglemouse'
+Plug 'pbrisbin/vim-mkdir'
+Plug 'ervandew/supertab'
+
+Plug 'junegunn/vim-easy-align'
+Plug 'vim-scripts/Smart-Tabs'
+Plug 'scrooloose/nerdcommenter'
+
+Plug 'scrooloose/nerdtree',
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'ludovicchabant/vim-gutentags'
-Plug 'w0rp/ale'
-Plug 'junegunn/vim-easy-align'
+Plug 'skywind3000/gutentags_plus'
 
-Plug 'Valloric/YouCompleteMe'
-Plug 'Shougo/echodoc.vim'
-Plug 'KibaAmor/YCM-Generator', { 'branch': 'stable'}
+Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
+
+Plug 'w0rp/ale'
+
 Plug 'skywind3000/asyncrun.vim'
 Plug 'vhdirk/vim-cmake'
 
-Plug 'kana/vim-textobj-user'
-Plug 'kana/vim-textobj-indent'
-Plug 'kana/vim-textobj-syntax'
-Plug 'kana/vim-textobj-function', { 'for':['c', 'cpp', 'vim', 'java'] }
-Plug 'sgur/vim-textobj-parameter'
+Plug 'Shougo/deol.nvim'
+
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'Valloric/YouCompleteMe'
+Plug 'Shougo/echodoc.vim'
+Plug 'KibaAmor/YCM-Generator', { 'branch': 'stable'}
+
+Plug 'fatih/vim-go', { 'tag': '*' }
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+Plug 'tenfyzhong/CompleteParameter.vim'
+
+Plug 'vim-airline/vim-airline'
+Plug 'sheerun/vim-polyglot'
+Plug 'luochen1990/rainbow'
+Plug 'Yggdroot/indentLine'
+
+Plug 'joshdick/onedark.vim'
 call plug#end()
 
