@@ -204,19 +204,22 @@ autocmd FileType go nmap <leader>c <Plug>(go-coverage-toggle)
 
 let g:go_list_type = "quickfix"
 let g:go_fmt_command = "goimports"
+let g:go_auto_type_info = 1
 let g:go_fmt_fail_silently = 1
 
-let g:go_highlight_types = 1
-let g:go_highlight_fields = 1
 let g:go_highlight_functions = 1
-let g:go_highlight_function_calls = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_types = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
 " }}
 
 
 " ultisnips {{
 " make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-n>', '<space>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:ycm_key_list_select_completion = ['<C-n>']
+let g:ycm_key_list_previous_completion = ['<C-p>']
 let g:SuperTabDefaultCompletionType = '<C-n>'
 
 " better key bindings for UltiSnipsExpandTrigger
