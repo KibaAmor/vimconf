@@ -136,8 +136,14 @@ let g:ale_keep_list_window_open = 0
 let g:ale_list_window_size = 3
 let g:ale_set_loclist = 0
 let g:ale_set_quickfix = 1
-let g:ale_c_gcc_options = '-Wall -O2 -std=c11'
-let g:ale_cpp_gcc_options = '-Wall -O2 -std=c++11'
+let g:ale_c_gcc_options = '-Wall -O2 -std=c99'
+let g:ale_cpp_gcc_options = '-Wall -O2 -std=c++14'
+let g:ale_c_cppcheck_options = ''
+let g:ale_cpp_cppcheck_options = ''
+
+" install https://github.com/Sarcasm/compdb
+" compdb -p build/ list > compile_commands.json
+let g:ale_c_parse_compile_commands = 1
 " }}
 
 
