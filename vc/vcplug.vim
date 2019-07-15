@@ -19,7 +19,6 @@ else
     call plug#begin('~/.vim/plugged')
 endif
 Plug 'mbbill/fencview'
-Plug 'mbbill/undotree'
 Plug 'mhinz/vim-signify'
 Plug 'mhinz/vim-startify'
 Plug 'bronson/vim-trailing-whitespace'
@@ -55,8 +54,6 @@ Plug 'KibaAmor/YCM-Generator', { 'branch': 'stable'}
 Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-
-Plug 'tenfyzhong/CompleteParameter.vim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'sheerun/vim-polyglot'

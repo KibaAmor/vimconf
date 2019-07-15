@@ -1,8 +1,3 @@
-" {{ undotree
-nnoremap <F5> :UndotreeToggle<cr>
-" }}
-
-
 " EasyAlign {{
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
@@ -229,14 +224,6 @@ let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 " }}
 
-
-" CompleteParameter.vim {{
-inoremap <silent><expr> ( complete_parameter#pre_complete("()")
-smap <c-j> <Plug>(complete_parameter#goto_next_parameter)
-imap <c-j> <Plug>(complete_parameter#goto_next_parameter)
-smap <c-k> <Plug>(complete_parameter#goto_previous_parameter)
-imap <c-k> <Plug>(complete_parameter#goto_previous_parameter)
-" }}
 
 " rainbow {{
 let g:rainbow_active = 1
