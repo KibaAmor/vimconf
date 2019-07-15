@@ -144,6 +144,7 @@ let g:ale_cpp_cppcheck_options = ''
 " install https://github.com/Sarcasm/compdb
 " compdb -p build/ list > compile_commands.json
 let g:ale_c_parse_compile_commands = 1
+nnoremap <F11> :!compdb -p build/ list > compile_commands.json<cr><cr>
 " }}
 
 
