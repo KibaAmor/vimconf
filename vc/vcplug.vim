@@ -41,6 +41,9 @@ Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 
 Plug 'w0rp/ale'
 
+Plug 'skywind3000/asyncrun.vim'
+Plug 'vhdirk/vim-cmake'
+
 Plug 'Shougo/deol.nvim'
 
 Plug 'octol/vim-cpp-enhanced-highlight'
