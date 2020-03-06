@@ -13,4 +13,6 @@ command! -nargs=* VcInc call s:VcIncImpl('<args>')
 
 VcInc vc/vcbasic.vim
 VcInc vc/vckeymap.vim
+VcInc vc/vcplug.vim
+VcInc vc/vcplugconf.vim
 
