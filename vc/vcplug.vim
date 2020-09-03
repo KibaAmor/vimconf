@@ -58,7 +58,6 @@ Plug 'honza/vim-snippets'
 Plug 'vim-airline/vim-airline'
 Plug 'sheerun/vim-polyglot'
 Plug 'luochen1990/rainbow'
-Plug 'Yggdroot/indentLine'
 
 Plug 'joshdick/onedark.vim'
 call plug#end()

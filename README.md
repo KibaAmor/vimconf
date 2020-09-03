@@ -2,10 +2,15 @@
 
 personal vim configuration.
 
-## Compile vim8
+## How To Use
 
-### 1. Centos
+```bash
+mkdir ~/repos
+cd ~/repos
+git clone https://github.com/kibaamor/vimconf
 
-```shell
-./configure --enable-luainterp=yes --enable-python3interp=yes --enable-cscope --enable-terminal --enable-autoservername --enable-multibyte --enable-fontset --with-modified-by=k --with-compiledby=k --with-luajit --with-python3-config-dir=/usr/lib64/python3.6/config-3.6m-x86_64-linux-gnu
+mv ~/.vimrc ~/.vimrc.bk
+echo "source ~/repos/vimconf/vimconf.vim" >> ~/.vimrc
+echo "source ~/repos/vimconf/vimconf_plug.vim" >> ~/.vimrc
 ```
+

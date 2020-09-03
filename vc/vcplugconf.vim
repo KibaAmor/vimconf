@@ -233,11 +233,6 @@ let g:rainbow_active = 1
 " }}
 
 
-" indentLine {{
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
-" }}
-
-
 " colorscheme {{
 " onedark.vim override: Don't set a background color when running in a terminal;
 " just use the terminal's background color
