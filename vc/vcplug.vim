@@ -34,24 +34,10 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree',
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
-Plug 'ludovicchabant/vim-gutentags'
-Plug 'skywind3000/gutentags_plus'
-
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 
-Plug 'w0rp/ale'
-
-Plug 'skywind3000/asyncrun.vim'
-Plug 'vhdirk/vim-cmake'
-
-Plug 'Shougo/deol.nvim'
-
 Plug 'octol/vim-cpp-enhanced-highlight'
-Plug 'Valloric/YouCompleteMe'
-Plug 'Shougo/echodoc.vim'
-Plug 'KibaAmor/YCM-Generator', { 'branch': 'stable'}
 
-Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
