@@ -18,6 +18,7 @@ if (has("nvim"))
 else
     call plug#begin('~/.vim/plugged')
 endif
+
 Plug 'mbbill/fencview'
 Plug 'mhinz/vim-signify'
 Plug 'mhinz/vim-startify'
@@ -46,5 +47,9 @@ Plug 'sheerun/vim-polyglot'
 Plug 'luochen1990/rainbow'
 
 Plug 'joshdick/onedark.vim'
+
+Plug 'easymotion/vim-easymotion'
+Plug 'haya14busa/incsearch.vim'
+
 call plug#end()
 

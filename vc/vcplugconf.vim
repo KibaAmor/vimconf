@@ -102,11 +102,47 @@ endtry
 " }}
 
 
-" airline {{ let g:airline_theme                             = 'onedark'
+" airline {{
+let g:airline_theme                             = 'onedark'
 let g:airline_powerline_fonts                   = 1
 let g:airline#extensions#whitespace#enabled     = 0
 let g:airline#extensions#whitespace#symbol      = '!'
 let g:airline#extensions#tabline#enabled        = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#tabline#formatter      = 'unique_tail'
+" }}
+
+" easymotion {{
+" <Leader>f{char} to move to {char}
+map  <Leader>f <Plug>(easymotion-bd-f)
+nmap <Leader>f <Plug>(easymotion-overwin-f)
+
+" s{char}{char} to move to {char}{char}
+nmap s <Plug>(easymotion-overwin-f2)
+
+" Move to line
+map <Leader>L <Plug>(easymotion-bd-jk)
+nmap <Leader>L <Plug>(easymotion-overwin-line)
+
+" Move to word
+map  <Space>   <Plug><easymotion-bd-w)
+nmap <Space>   <Plug>(easymotion-overwin-w)
+map  <Leader>W <Plug>(easymotion-bd-w)
+nmap <Leader>W <Plug>(easymotion-overwin-w)
+" }}
+
+" incsearch {{
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+
+" :h g:incsearch#auto_nohlsearch
+set hlsearch
+let g:incsearch#auto_nohlsearch = 1
+map n  <Plug>(incsearch-nohl-n)
+map N  <Plug>(incsearch-nohl-N)
+map *  <Plug>(incsearch-nohl-*)
+map #  <Plug>(incsearch-nohl-#)
+map g* <Plug>(incsearch-nohl-g*)
+map g# <Plug>(incsearch-nohl-g#)
 " }}
