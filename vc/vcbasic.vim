@@ -91,7 +91,7 @@ set wildignore+=*vim/backups*
 set magic
 set ruler
 set number
-set title
+set notitle
 set showcmd
 set showmode
 set cmdheight=2
