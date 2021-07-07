@@ -13,3 +13,14 @@ mv ~/.vimrc ~/.vimrc.bk
 echo "source ~/repos/vimconf/vimconf_plug.vim" >> ~/.vimrc
 ```
 
+## How To Setup Zsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+echo "plugins=($plugins zsh-autosuggestions)" >> ~/.zshrc
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+echo 'ZSH_THEME="powerlevel10k/powerlevel10k"' >> ~/.zshrc
+```
