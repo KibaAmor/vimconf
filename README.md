@@ -11,6 +11,8 @@ git clone https://github.com/kibaamor/vimconf
 
 mv ~/.vimrc ~/.vimrc.bk
 echo "source ~/repos/vimconf/vimconf_plug.vim" >> ~/.vimrc
+
+# install rg (https://github.com/BurntSushi/ripgrep) for better search experience
 ```
 
 ## How To Setup Zsh

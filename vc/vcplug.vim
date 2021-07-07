@@ -19,25 +19,21 @@ else
     call plug#begin('~/.vim/plugged')
 endif
 
-Plug 'mbbill/fencview'
 Plug 'mhinz/vim-signify'
 Plug 'mhinz/vim-startify'
-Plug 'bronson/vim-trailing-whitespace'
 Plug 'tpope/vim-fugitive'
 Plug 'nvie/vim-togglemouse'
 Plug 'pbrisbin/vim-mkdir'
-Plug 'ervandew/supertab'
 
+Plug 'ervandew/supertab'
 Plug 'junegunn/vim-easy-align'
-Plug 'vim-scripts/Smart-Tabs'
 Plug 'scrooloose/nerdcommenter'
+Plug 'bronson/vim-trailing-whitespace'
 
 Plug 'scrooloose/nerdtree',
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
-Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
-
-Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
